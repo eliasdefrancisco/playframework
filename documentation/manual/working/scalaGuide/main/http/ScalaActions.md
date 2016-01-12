@@ -37,7 +37,7 @@ Body parsers will be covered later in this manual.  For now you just need to kno
 
 ## Controllers are action generators
 
-A `Controller` is nothing more than a singleton object that generates `Action` values. 
+A `Controller` is nothing more than a method that generates `Action` values. 
 
 The simplest use case for defining an action generator is a method with no parameters that returns an `Action` value	:
 
